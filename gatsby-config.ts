@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `University of Waterloo Book Club`,
-    siteUrl: `https://www.uwbookclub.github.io`,
+    title: `UWaterloo ENGnews`,
+    siteUrl: `https://www.uwengnews.github.io`,
   },
   plugins: [],
 }

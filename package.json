@@ -1,8 +1,8 @@
 {
-  "name": "university-of-waterloo-book-club",
+  "name": "university-of-waterloo-eng-news",
   "version": "1.0.0",
   "private": true,
-  "description": "university-of-waterloo-book-club",
+  "description": "university-of-waterloo-eng-news",
   "author": "Arjun Krishna",
   "keywords": [
     "gatsby"

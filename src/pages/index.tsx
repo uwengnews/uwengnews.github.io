@@ -79,9 +79,9 @@ const githubIssuesLink = "https://github.com/uwengnews/uwengnews.github.io/issue
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>engNEWS</title>
+      <title>ENGnews</title>
       <h1 style={headingStyles}>
-        engNEWS
+        ENGnews
       </h1>
       <h3>UWaterloo's avant-garde, stream-of-conciousness engineering student paper</h3>
       <p style={paragraphStyles}>
