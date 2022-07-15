@@ -56,10 +56,6 @@ const descriptionStyle = {
   lineHeight: 1.25,
 }
 
-const docLink = {
-  text: "Books we're curently reading:",
-  color: "#8954A8",
-}
 
 const badgeStyle = {
   color: "#fff",
@@ -77,72 +73,26 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
-// data
-const links = [
-  {
-    text: "The Dispossessed",
-    url: "https://www.goodreads.com/book/show/13651.The_Dispossessed",
-    description:
-      "A tall alien from a communist planet visits a capitalist planet to open up their cultures to each other. Anarchy and hijinks ensue!",
-    color: "#E95800",
-  },
-  {
-    text: "Dance of The Reptiles",
-    url: "https://www.goodreads.com/book/show/17978478-dance-of-the-reptiles",
-    description:
-      "Stranger than fact stories about animal welfare, polluted rivers, and the broken criminal justice system in Florida.",
-    color: "#E95800",
-  },
-  {
-    text: "The Count of Monte Cristo",
-    url: "https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo?ac=1&from_search=true&qid=eVwGW707Ih&rank=1",
-    description:
-      "Everything is going well for Dantes until he is made the fall guy for a Bonapartist conspiracy to protect some powerful people. He comes back decades later with billions and shows them who's boss.",
-    color: "#E95800",
-  },
-]
+const githubIssuesLink = "https://github.com/uwengnews/uwengnews.github.io/issues";
 
 // markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>UW Book Club</title>
+      <title>engNEWS</title>
       <h1 style={headingStyles}>
-        Welcome!
-        <br />
-        <span style={headingAccentStyles}>— this is the UW Book Club </span>
-        📚 🤓
+        engNEWS
       </h1>
+      <h3>UWaterloo's avant-garde, stream-of-conciousness engineering student paper</h3>
       <p style={paragraphStyles}>
-        We meet weekly to talk about the books we're reading and hang out.
+        We're starting in the Fall term of 2022, first issue out on September 12
       </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <h1
-            style={linkStyle}
-          >
-            {docLink.text}
-          </h1>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
+      <p style={paragraphStyles}>
+        We will finally break the chokehold mathNEWS has on how nerds get high quality information on the University of Waterloo campus
+      </p>
+      <p style={paragraphStyles}>
+        Have ideas or want to join? Check out our <a href={githubIssuesLink}>github issues page</a>, or message Jerry Lu (JerryLu#1659) on Discord
+      </p>
     </main>
   )
 }
