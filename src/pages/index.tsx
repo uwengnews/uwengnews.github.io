@@ -74,6 +74,7 @@ const badgeStyle = {
 }
 
 const githubIssuesLink = "https://github.com/uwengnews/uwengnews.github.io/issues";
+const articleSubmissionLink = "https://forms.gle/QMmLBQv6YemSdCfC6";
 
 // markup
 const IndexPage = () => {
@@ -91,7 +92,7 @@ const IndexPage = () => {
         We will finally break the chokehold mathNEWS has on how nerds get high quality information on the University of Waterloo campus
       </p>
       <p style={paragraphStyles}>
-        Have ideas or want to join? Check out our <a href={githubIssuesLink}>github issues page</a>, or message Jerry (JerryLu#1659) on Discord
+        Have ideas or want to join? Submit articles <a href={articleSubmissionLinkn}>here</a> or create a <a href={githubIssuesLink}>github issue</a>
       </p>
     </main>
   )
