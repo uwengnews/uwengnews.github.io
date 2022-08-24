@@ -92,7 +92,7 @@ const IndexPage = () => {
         We will finally break the chokehold mathNEWS has on how nerds get high quality information on the University of Waterloo campus
       </p>
       <p style={paragraphStyles}>
-        Have ideas or want to join? Submit articles <a href={articleSubmissionLinkn}>here</a> or create a <a href={githubIssuesLink}>github issue</a>
+        Have ideas or want to join? Submit articles <a href={articleSubmissionLink}>here</a> or create a <a href={githubIssuesLink}>github issue</a>
       </p>
     </main>
   )
