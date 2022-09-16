@@ -1,5 +1,5 @@
 # uwengnews.github.io
-University of Waterloo ENGnews homepage
+ENGnews homepage
 
 ## HOWTO
 - source: https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/
