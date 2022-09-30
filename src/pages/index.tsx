@@ -1,5 +1,6 @@
 import * as React from "react"
-import issue from "../issues/issue.pdf";
+import issue from "../issues/issue.pdf"
+
 
 // styles
 const pageStyles = {
@@ -16,7 +17,7 @@ const headingAccentStyles = {
   color: "#663399",
 }
 const paragraphStyles = {
-  marginBottom: 48,
+  marginBottom: 24,
 }
 const codeStyles = {
   color: "#8A6534",
@@ -105,19 +106,16 @@ const IndexPage = () => {
       </h1>
       <div style={gridContainer}>
         <div style={gridElem}>
-          <h2>Issue 0000 0001</h2>
-          <iframe id="issuePdf" title="Issue 0000 0001" src={issue} style={iframeStyle}></iframe>
+          <h2>Issues:</h2>
+          <h3><a href={issue} target="_blank">Issue 0000 0001</a></h3>
         </div>
         <div style={gridElem}>
-          <h3>The Avant-Garde Stream-of-Conciousness Laurieh Engeneerneng Studet Paper</h3>
+          <h3>Welcome to ENGnews, Waterloo's new favourite student paper</h3>
           <p style={paragraphStyles}>
-            Approved by Lourier Engeneering.
-          </p>
+            Pick up a physical copy in PAC, SLC, QNC, RCH or E5.
+            Next issue out in mid October.</p> 
           <p style={paragraphStyles}>
-            Pick up a physical copy in PAC, SLC, QNC, RCH or E5. Next issue out on October 3rd.
-          </p>
-          <p style={paragraphStyles}>
-            Have ideas or want to join? Submit articles <a href={articleSubmissionLink}>here</a>, cover images <a href={articleSubmissionLink}>here</a> or create a <a href={githubIssuesLink}>github issue</a>
+            Want to contribute? Submit articles <a href={articleSubmissionLink}>here</a>, cover images <a href={articleSubmissionLink}>here</a> or create a <a href={githubIssuesLink}>github issue</a>
           </p>
         </div>
       </div>
